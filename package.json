@@ -1,4 +1,14 @@
-{
+{{
+  "name": "appapi",
+  "description": "a really cool app",
+  "version": "0.0.1",
+  "engines": {
+    "npm": "6.x","node":"10.15.0"
+  } ,
+
+   "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "cloudinary": "^1.14.0",
     "express": "^4.17.1",
